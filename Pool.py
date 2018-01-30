@@ -15,6 +15,7 @@ if __name__ == '__main__':
     print('Parent process %s.' % os.getpid())
     p = Pool()
     for i in range(5):
+        # 当达到最大线程数时，等待其中某个线程结束时才会创建新线程
         p.apply_async(long_time_task, args=(i,))
     print('Waiting for all subprocesses done...')
     p.close()
