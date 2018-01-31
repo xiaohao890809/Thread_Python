@@ -11,7 +11,7 @@
 Python的multiprocessing模块包装了底层的机制，提供了Queue、Pipes等多种方式来交换数据。**两者的区别在于Pipe常用于两个进程间的通讯而Queue用于多个进程间实现通讯。**
 
 ### Queue通讯
-Queue是多进程安全的队列，可以使用Queue实现多进程之间的数据传输，有两个方法:put和get进行Queue操作。
+>Queue是多进程安全的队列，可以使用Queue实现多进程之间的数据传输，有两个方法:put和get进行Queue操作。
 
 ### Pipes通讯
-Pipe常用来在两个进程间进行通信，两个进程分别位于管道的两端。
+>Pipe常用来在两个进程间进行通信，两个进程分别位于管道的两端。
