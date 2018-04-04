@@ -15,3 +15,6 @@ Python的multiprocessing模块包装了底层的机制，提供了Queue、Pipes�
 
 ### Pipes通讯
 >Pipe常用来在两个进程间进行通信，两个进程分别位于管道的两端。
+
+## 参考文献
++ Python的进程 by Python绿色通道(公众号)
